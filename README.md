@@ -3,7 +3,7 @@
 A sample app named `MonitorApps` written in AngularJS uses Datadog RUM to track user activity.
 
 The Datadog javascript code is in the `js/datadog.js` file and it is included in the `index.html` file. 
-This is optional as the code in itself can be included within a `<script></script>` tag.
+This is optional as the code in itself can be included within a `<script></script>` tag of `index.html`.
 
 Versions used for the app:
 
