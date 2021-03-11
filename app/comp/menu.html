@@ -1,0 +1,12 @@
+<!-- start: Main Menu -->
+<div id="sidebar-left" class="span2" ng-controller="MenuController">
+    <div class="nav-collapse sidebar-nav">
+        <ul class="nav nav-tabs nav-stacked main-menu">
+            <li ng-repeat="link in menu">
+                <a href="#/{{link.link}}?id={{link.link}}">
+                    <i class="icon-{{link.icon}}"></i><span class="hidden-tablet"> {{link.title}}</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end: Main Menu -->

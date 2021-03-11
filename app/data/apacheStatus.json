@@ -1,0 +1,115 @@
+{
+    "apache": [ 
+   { 
+      "app":"Apache",
+      "host":"example.com/webapps/portal/healthCheck",
+      "domain":"example.com",
+      "alias":"MyCampus@Monitor",
+      "title":"Blackboard Monitor",
+      "color":"green",
+      "status":"running",
+      "state":"up",
+      "code":"200",
+      "timestamp":"08/24/15 12:40:01",
+      "icon":"glyphicons-icon globe",
+      "image":"mycampusMonitor",
+      "description":"Blackbord" 
+   } 
+,
+   { 
+      "app":"Apache",
+      "host":"Monitors.Monitor.edu/webapps/portal/healthCheck",
+      "domain":"Monitors.Monitor.edu",
+      "alias":"Bb@MonitorS",
+      "title":"Blackboard Monitor High",
+      "color":"green",
+      "status":"running",
+      "state":"up",
+      "code":"200",
+      "timestamp":"08/24/15 12:40:01",
+      "icon":"glyphicons-icon globe",
+      "image":"Monitors",
+      "description":"Blackbord High School" 
+   } 
+,
+   { 
+      "app":"Apache",
+      "host":"example.com/instructors",
+      "domain":"example.com",
+      "alias":"instructor@Monitor",
+      "title":"Uptime Status Monitor",
+      "color":"red",
+      "status":"stopped",
+      "state":"down",
+      "code":"000",
+      "timestamp":"08/24/15 12:40:01",
+      "icon":"glyphicons-icon globe",
+      "image":"Monitor",
+      "description":" Uptime Status" 
+   } 
+,
+   { 
+      "app":"Apache",
+      "host":"example.com/app2",
+      "domain":"example.com",
+      "alias":"TC",
+      "title":"Proctor Center ",
+      "color":"yellow",
+      "status":"running",
+      "state":"up",
+      "code":"200",
+      "timestamp":"08/24/15 12:40:01",
+      "icon":"glyphicons-icon globe",
+      "image":"Monitor",
+      "description":"Uptime Status" 
+   } 
+,
+   { 
+      "app":"Apache",
+      "host":"example.com/app3/support.jsp",
+      "domain":"example.com",
+      "alias":"app1",
+      "title":"Time Request Application",
+      "color":"green",
+      "status":"running",
+      "state":"up",
+      "code":"200",
+      "timestamp":"08/24/15 12:40:02",
+      "icon":"glyphicons-icon globe",
+      "image":"Monitor",
+      "description":"Uptime Status" 
+   } 
+,
+   { 
+      "app":"Apache",
+      "host":"my.Monitor.edu",
+      "domain":"my.Monitor.edu",
+      "alias":"myMonitorl",
+      "title":"myMonitor Portal",
+      "color":"black",
+      "status":"running",
+      "state":"up",
+      "code":"200",
+      "timestamp":"08/24/15 12:40:02",
+      "icon":"glyphicons-icon globe",
+      "image":"myMonitor",
+      "description":"Portal for" 
+   } 
+,
+   { 
+      "app":"Apache",
+      "host":"my.example.com",
+      "domain":"my.example.com",
+      "alias":"Monitor",
+      "title":"My",
+      "color":"green",
+      "status":"running",
+      "state":"up",
+      "code":"200",
+      "timestamp":"08/24/15 12:40:02",
+      "icon":"glyphicons-icon globe",
+      "image":"casMonitor",
+      "description":"Authentication Central for" 
+   } 
+    ] 
+}

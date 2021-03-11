@@ -1,0 +1,10 @@
+{
+        "menu": [
+            {
+                "icon": "warning-sign",
+                "title": "Apache",
+                "template": "components",
+                "link": "apache"
+            }
+        ]
+    }

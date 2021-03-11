@@ -1,0 +1,10 @@
+<div class="row-fluid" ng-controller="ApacheController">
+
+    <div class="col-xs-6 col-sm-6 sidebar-offcanvas" id="sidebar">
+        <div class="list-group" ng-repeat="a in apache"><span class="{{a.icons}}"></span>
+            <span class="list-group-item {{a.color}}"> {{a.code}}<span class="glyphicon glyphicon-arrow-{{a.state}}" >  </span> {{a.alias}} {{a.status}} <small> {{a.timestamp}}</small> <br/>{{a.title}} </span>
+                
+        </div>
+    </div>
+
+</div>
